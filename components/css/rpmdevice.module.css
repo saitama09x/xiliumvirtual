@@ -1,0 +1,32 @@
+.bannerBG{
+	
+	background-image: url("/images/patient/Cloud-Service-Providers-and-Device-Manufacturers.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 97px;
+    padding-bottom: 110px;
+    margin-top: 90px;
+
+}
+
+.customDivider{
+	background-image: linear-gradient(90deg,#29a7de 0%,#88c23f 100%);
+	padding: 7px;
+}
+
+.section3BG{
+	background-color: #36444c;
+
+}
+
+.section4BG{
+	background-color: #f0f6f9;
+}
+
+.cardNoShadow{
+	box-shadow: unset;
+}
+
+.section7Gap{
+	column-gap: 90px;
+}

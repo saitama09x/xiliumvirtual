@@ -1,0 +1,29 @@
+.bannerBG{
+
+	background-image: url("/images/company/history-Background-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 97px;
+    padding-bottom: 110px;
+    margin-top: 90px;
+
+}
+
+.cardNoShadow{
+	background-color: #fff0;
+	box-shadow: unset;
+}
+
+.section1Gap{
+	column-gap: 90px;
+}
+
+.section3BG{
+	background-color: #a6c66f;
+}
+
+.xilium_don{
+	background-color: #fff;
+    height: 230px;
+    padding: 20px;
+}

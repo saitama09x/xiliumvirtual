@@ -1,0 +1,55 @@
+.btn {
+  padding: .7em 1.5em;
+  font-size: 14pt;
+  border-radius: 7px;
+  display: inline-block;
+}
+
+.accordion-item{
+  position: relative;
+}
+
+.accordion-wrap .accordion-item{
+    border: none;
+    border-top: solid 3px #8fc64b;
+    background-color: #fff;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.accordion-wrap .accordion-item .toggle-title {
+    padding: 1.67%;
+    background: 0 0;
+    font-weight: 700;
+    color: #666;
+    
+}
+
+.accordion-wrap .accordion-item .toggle-content {
+    padding-left: 15px;
+    font-size: 12pt;    
+    overflow: hidden;
+    transition: height 1s;
+}
+
+.accordion-wrap .accordion-item .toggle-content.open{
+    display: block;
+    height: 300px;
+}
+
+.accordion-wrap .accordion-item .toggle-content.hide{
+    height: 0px;    
+}
+
+.accordion-wrap .accordion-item .toggle-btn{
+  position: absolute;
+  right :22px;
+  top: 20%;
+}
+
+.accordion-wrap .accordion-item .toggle-btn.open span::after{
+    content: "\e050";
+    color: #ccc;
+    font-family: ETmodules!important;
+    font-size: 16px;
+}

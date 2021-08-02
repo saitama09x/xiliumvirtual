@@ -1,0 +1,41 @@
+.bannerBG{
+	
+	background-image: url("/images/patient/Xilium-Rpm-banner-2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 70px 0px;
+    margin-top: 90px;
+
+}
+
+.customDivider{
+	background-image: linear-gradient(90deg,#29a7de 0%,#88c23f 100%);
+	padding: 7px;
+}
+
+.section3BG{
+	background-color: #36444c;
+
+}
+
+.section3Card{
+	background-color: #fff0;
+	box-shadow: unset;
+	color: white;
+}
+
+.section4BG{
+	background-color: #eeeeee;
+}
+
+.section6BG{
+	background-color: #f0f6f9;
+}
+
+.section6RowBG{
+	background-color: #fff;
+}
+
+.section7Gap{
+	column-gap: 60px;
+}

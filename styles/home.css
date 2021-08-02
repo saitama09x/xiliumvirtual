@@ -1,0 +1,32 @@
+.bannerTitle{
+  margin-bottom: 20px;color:#FFF;
+  text-shadow: 2px 2px 2px #2e2e2e;
+}
+
+.bannerText{
+  margin-bottom: 20px;color:#FFF;
+  font-size:19px;font-weight:400;
+  text-shadow: 2px 2px 2px #2e2e2e;
+}
+
+
+#slider-section {
+    background-image: url(/images/background-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home-slick .bg-gray {
+    background-color: rgba(0,0,0,.12156862745098039);
+}
+
+#home-slick .bg-white {
+    background-color: rgba(0,0,0,.0392156862745098);
+}
+
+
+.read-more {
+    color: white;
+    font-size: 19px;
+    font-weight: 300;
+}

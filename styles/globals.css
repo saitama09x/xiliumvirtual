@@ -1,0 +1,116 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/***************Header*****************/
+h1{
+  font-size: 30px;
+}
+
+h2{
+  font-size: 26px;
+}
+
+#header{
+  position: fixed;
+  line-height: 23px;
+  font-weight: 500;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+}
+
+#header .logo{
+  display: flex;
+  align-items: center;
+}
+
+#header .logo img{
+  height: 72px;
+}
+
+#menu li{
+  margin-right: 20px;
+}
+
+.font300{
+  font-weight: 300;
+}
+
+.font400{
+    font-weight: 400;
+}
+
+.white-text{
+  color: #fff;
+}
+
+.black-text{
+  color: #000;
+}
+
+
+.shadow1 {
+    -webkit-box-shadow: 6px 6px 18px 0 rgb(0 0 0 / 30%);
+    box-shadow: 6px 6px 18px 0 rgb(0 0 0 / 30%);
+}
+
+/**********color**********/
+
+.bg-white{
+  background-color: #fff;
+}
+
+.bg-white-gray{
+  background-color: #f0f6f9!important;
+}
+
+.light-blue {
+    background-color: #0999ec;
+} 
+
+.light-green {
+    background-color: #8fc64b;
+}
+
+.light-gray{
+    background-color: #fdfdfdbf;
+}
+
+
+#footer-contact{
+  background-image : url("/images/Xilium-contact-form-banner-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#footer-contact h1{
+      color: #fff;
+}
+
+#footer-contact p{
+  color: white;
+}
+
+
+
+@media(max-width: 980px){
+
+  .is-mobile-screen{
+    display: block !important;
+  }
+
+}

@@ -1,0 +1,44 @@
+
+.bannerBG{
+	background-image: url("/images/Xilium-home-banner-02-1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 70px 0px;
+    margin-top: 90px;
+}
+
+.section4{
+	background-image: url("/images/Measure-of-quality-background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 70px 0px;
+}
+
+.section7{
+	background-image: url("/images/background-with-pattern-02.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 70px 0px;
+}
+
+.section9{
+	background-image: url("/images/Xilium-events-banner-scaled.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 70px 0px;
+	
+}
+
+.section9Container{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.section9Content{
+	background-color: #000000a1;
+    padding: 20px 10px 20px 130px
+}
+
+.section10{
+	background-color: #36444c!important;
+}
